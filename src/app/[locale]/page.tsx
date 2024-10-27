@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Heading, Flex, Text, Button,  Avatar, RevealFx } from '@/once-ui/components';
+import { Heading, Flex, Text, Button,  Avatar, RevealFx} from '@/once-ui/components';
 import { Projects } from '@/components/work/Projects';
 
 import { baseURL, routes, renderContent } from '@/app/resources'; 
@@ -84,8 +84,13 @@ export default function Home(
 						<RevealFx translateY="4">
 							<Heading
 								wrap="balance"
-								variant="display-strong-l">
+								variant="display-strong-xl">
 								{home.headline}
+							</Heading>
+							<Heading
+								wrap="balance"
+								variant="display-default-m">
+								{person.role}
 							</Heading>
 						</RevealFx>
 						<RevealFx translateY="8" delay={0.2}>
