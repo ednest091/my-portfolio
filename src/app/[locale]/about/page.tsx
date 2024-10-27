@@ -93,8 +93,9 @@ export default function About(
                 }}
             />
             { about.tableOfContent.display && (
+                // control left menu
                 <Flex
-                    style={{ left: '0', top: '50%', transform: 'translateY(-50%)' }}
+                    style={{ left: '0', top: '58%', transform: 'translateY(-50%)' }}
                     position="fixed"
                     paddingLeft="24" gap="32"
                     direction="column" hide="s">
