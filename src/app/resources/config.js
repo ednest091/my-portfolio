@@ -1,4 +1,4 @@
-const baseURL = 'edwin.app' //demo.app original variable
+const baseURL = 'MY-PORTFOLIO.app' //demo.app original variable
 
 // Enable localization
 const i18n = false;

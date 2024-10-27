@@ -48,8 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline:<> Edwin Cruz </>,
-    headsubline:<>Java Backend Developer</>,
-    subline: <>I'm Edwin Cruz , a Java Backend Developer <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    subline: <>I'm a passionate <InlineCode>Java Backend Developer</InlineCode> with a focus on building robust and scalable systems. I thrive on solving complex problems and continuously improving my skills. I'm eager to collaborate on impactful projects and grow in the world of backend development.</>
 }
 
 const about = {
